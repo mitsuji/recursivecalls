@@ -9,7 +9,7 @@
 
 
   * 関数の再帰呼び出しは while や for の代わりになるか
-    * C, Java, JavaScrpt -> ならない
+    * C, Java, JavaScrpt -> ならない (最適化で動く場合もあるが使用はさける)
     * Racket, Haskell -> それしかない
 
 	
