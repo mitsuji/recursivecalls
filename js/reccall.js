@@ -38,7 +38,7 @@ function frec2 (x) {
 
 
 //console.log(series1(20000));
-//console.log(series2(1000,0));
+console.log(series2(1000,0));
 
 
 //ffor(0);

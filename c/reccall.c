@@ -1,5 +1,5 @@
-// $ gcc -g main.c
-// $ gcc -O2 -g main.c
+// $ gcc -g reccall.c
+// $ gcc -O2 -g reccall.c
 
 #include <stdio.h>
 #include <stdint.h>
