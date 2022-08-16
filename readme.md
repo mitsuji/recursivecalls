@@ -42,7 +42,7 @@
 | 〃            |〃                |○      | -O2  | OK |
 | [Series2S.hs](haskell/Series2S.hs)  | Haskell(strict)  |○      |      | OK (時間かかるけど) |
 | 〃            |〃                |○      | -O2  | OK |
-| [series1.rkt](lisp/series1.rkt)  | Racket           |       |      | (series 1000000000) で 強制終了 |
+| [series1.rkt](lisp/series1.rkt)  | Racket           |       |      | (series 1000000000) で 強制終了(OOM) |
 | [series2.rkt](lisp/series2.rkt)  | 〃               |○     |       | OK |
 
 
