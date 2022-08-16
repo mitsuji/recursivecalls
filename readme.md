@@ -20,9 +20,9 @@
 |--------------|----------------- | ----- | ---- |
 | [frec.c](c/frec.c)       | C                |       | x: 261837 で Segmentation fault |
 | 〃           | 〃                | -O2   | OK |
-| [FRec.java](java/Frec.java)    | Java             |       | x: 5182 で StackOverflowError |
+| [FRec.java](java/FRec.java)    | Java             |       | x: 5182 で StackOverflowError |
 | [frec.js](js/frec.js)      | JavaScript       |       | x: 10454 で RangeError: Maximum call stack size exceeded |
-| [FRec.hs](haskell/Frec.hs)      | Haskell          |       | OK |
+| [FRec.hs](haskell/FRec.hs)      | Haskell          |       | OK |
 | [frec.rkt](lisp/frec.rkt)     | Racketl          |       | OK |
 	
 	

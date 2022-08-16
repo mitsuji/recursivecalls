@@ -9,10 +9,10 @@ public class Series {
     }
 
     private static long series(long x) {
-		if (x==0)
-			return 0;
-		else
-			return x + series(x-1);
+        if (x==0)
+            return 0;
+        else
+            return x + series(x-1);
     }
 
 }
