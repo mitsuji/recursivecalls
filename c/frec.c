@@ -5,7 +5,7 @@
 #include <stdint.h>
 
 void frec (int x) {
-  char buff [0x10000];
+//  char buff [0x10000];
   printf("x: %d\n",x);
   frec (x+1);
 }

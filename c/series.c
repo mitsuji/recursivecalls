@@ -14,5 +14,6 @@ int64_t series (int64_t x) {
 
 int main (int argc, char argv []) {
   printf("%ld\n", series(10));
+//  printf("%ld\n", series(1000000)); // Segmentation fault
 }
 

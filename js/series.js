@@ -6,4 +6,5 @@ function series(x) {
 		return x + series(x-1);
 }
 
-console.log(series(10,0));
+console.log(series(10));
+//console.log(series(100000));
