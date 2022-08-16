@@ -18,12 +18,12 @@
 
 | ソース         | 言語             | 最適化 | 結果 |
 |--------------|----------------- | ----- | ---- |
-| frec.c       | C                |       | x: 261837 で Segmentation fault |
+| [frec.c](c/frec.c)       | C                |       | x: 261837 で Segmentation fault |
 | 〃           | 〃                | -O2   | OK |
-| FRec.java    | Java             |       | x: 5182 で StackOverflowError |
-| frec.js      | JavaScript       |       | x: 10454 で RangeError: Maximum call stack size exceeded |
-| FRec.hs      | Haskell          |       | OK |
-| frec.rkt     | Racketl          |       | OK |
+| [FRec.java](java/Frec.java)    | Java             |       | x: 5182 で StackOverflowError |
+| [frec.js](js/frec.js)      | JavaScript       |       | x: 10454 で RangeError: Maximum call stack size exceeded |
+| [FRec.hs](haskell/Frec.hs)      | Haskell          |       | OK |
+| [frec.rkt](lisp/frec.rkt)     | Racketl          |       | OK |
 	
 	
 
@@ -32,18 +32,18 @@
 
 | ソース         | 言語             |末尾再帰| 最適化 | 結果 |
 |--------------|----------------- | ----- | ---- | ---- |
-| series.c     | C                |       |      | series(1000000) で Segmentation fault |
+| [series.c](c/series.c)     | C                |       |      | series(1000000) で Segmentation fault |
 | 〃            |〃                |      | -O2   | OK  |  
-| Series.java  | Java             |       |      | series(100000) で StackOverflowError |
-| series.js    | JavaScript       |       |      | series(100000) で RangeError: Maximum call stack size exceeded  |
-| Series1.hs   | Haskell          |       |      | series 100000000 で stack overflow |
+| [Series.java](java/Series.java)  | Java             |       |      | series(100000) で StackOverflowError |
+| [series.js](js/series.js)    | JavaScript       |       |      | series(100000) で RangeError: Maximum call stack size exceeded  |
+| [Series1.hs](haskell/Series1.hs)   | Haskell          |       |      | series 100000000 で stack overflow |
 | 〃            |〃                 |      | -O2  | OK  |
-| Series2L.hs  | Haskell(lazy)    |○      |      | series 100000000 0 で 強制終了(OOM) |
+| [Series2L.hs](haskell/Series2L.hs)  | Haskell(lazy)    |○      |      | series 100000000 0 で 強制終了(OOM) |
 | 〃            |〃                |○      | -O2  | OK |
-| Series2S.hs  | Haskell(strict)  |○      |      | series 100000000 0 時間かかるけど OK |
+| [Series2S.hs](haskell/Series2S.hs)  | Haskell(strict)  |○      |      | OK (時間かかるけど) |
 | 〃            |〃                |○      | -O2  | OK |
-| series1.rkt  | Racket           |       |      | (series 1000000000) で 強制終了 |
-| series2.rkt  | 〃               |○     |       | OK |
+| [series1.rkt](lisp/series1.rkt)  | Racket           |       |      | (series 1000000000) で 強制終了 |
+| [series2.rkt](lisp/series2.rkt)  | 〃               |○     |       | OK |
 
 
 
